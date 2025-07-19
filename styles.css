@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
 }
 
 /* Footer Styling */
@@ -8,10 +10,11 @@ body {
     background: #0a0a0a;
     text-align: center;
     padding: 20px;
+    color: #b0b0b0;
 }
 
 .site-footer a {
-    color: orange;
+    color: #ffa500; /* Orange */
     text-decoration: none;
     font-weight: bold;
 }
@@ -21,18 +24,14 @@ body {
     padding: 8px;
     width: 220px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid #333;
+    background: #222;
+    color: #fff;
     text-align: center;
     font-size: 14px;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f9f9f9;
-    color: #333;
-}
 
-
+/* Contact Form */
 .contact-form {
     max-width: 500px;
     margin: 0 auto 30px auto;
@@ -44,16 +43,18 @@ body {
 .contact-form input,
 .contact-form textarea {
     padding: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid #333;
     border-radius: 8px;
     font-size: 15px;
     font-family: Arial, sans-serif;
+    background: #222;
+    color: #fff;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: orange;
+    border-color: #ffa500; /* Orange */
     outline: none;
     box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
 }
@@ -64,8 +65,8 @@ body {
 }
 
 .contact-form button {
-    background-color: orange;
-    color: white;
+    background-color: #ffa500; /* Orange */
+    color: #121212; /* Dark text */
     padding: 14px;
     font-size: 16px;
     font-weight: bold;
@@ -76,39 +77,39 @@ body {
 }
 
 .contact-form button:hover {
-    background-color: darkorange;
+    background-color: #ff8c00; /* Darker orange */
 }
-
 
 /* Contact Section */
 .contact-page { 
     align-items: center;
-    background-color: #634b4b;
+    background-color: #1a1a1a; /* Dark background */
     padding: 60px 20px;
     text-align: center;
+    color: #e0e0e0;
 }
-
 
 .contact-page h2 {
     font-size: 32px;
-    color: #333;
+    color: #fff;
     margin-bottom: 20px;
 }
 
 .contact-page p {
     font-size: 16px;
-    color: #555;
+    color: #b0b0b0;
     margin: 5px 0;
 }
 
 .contact-page a {
-    color: orange;
+    color: #ffa500; /* Orange */
     font-weight: bold;
     text-decoration: none;
 }
 
 .contact-page a:hover {
     text-decoration: underline;
+    color: #ff8c00; /* Darker orange */
 }
 
 /* Responsive */
